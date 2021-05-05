@@ -11,6 +11,7 @@ using PartsUnlimited.Models;
 namespace PartsUnlimited.Controllers
 {
     [Authorize]
+    //my first change
     public class AccountController : Controller
     {
         private SignInManager<ApplicationUser, string> SignInManager
