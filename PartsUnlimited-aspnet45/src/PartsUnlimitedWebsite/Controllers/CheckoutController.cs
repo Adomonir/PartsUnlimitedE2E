@@ -12,6 +12,7 @@ namespace PartsUnlimited.Controllers
     [Authorize]
     public class CheckoutController : Controller
     {
+        //My third change.
         private readonly IPartsUnlimitedContext db;
 
         public CheckoutController(IPartsUnlimitedContext context)

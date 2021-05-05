@@ -11,6 +11,7 @@ using PartsUnlimited.ViewModels;
 namespace PartsUnlimited.Controllers
 {
     [Authorize]
+    //Update Orders Controller
     public class OrdersController : Controller
     {
         private readonly IOrdersQuery _ordersQuery;
